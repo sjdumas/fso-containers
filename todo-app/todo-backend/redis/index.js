@@ -22,11 +22,11 @@ if (!REDIS_URL) {
     console.log('Connected to Redis')
   })
     
-  get = (...args) => client.get(...args)
-  set = (...args) => client.set(...args)
+  getAsync = (...args) => client.get(...args)
+  setAsync = (...args) => client.set(...args)
 }
 
 module.exports = {
-  get,
-  set,
+  getAsync,
+  setAsync,
 }
