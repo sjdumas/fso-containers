@@ -1,0 +1,7 @@
+{
+	"legacyWatch": true,
+	"ignore": [
+		"mongo_data/",
+		"redis_data/"
+	]
+}
