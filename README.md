@@ -24,13 +24,13 @@ The focus of this part is on containerization, Docker, and deploying application
 docker compose up --build
 ```
 
-## Exercise 12.22: My Containerized Dev Env
+## Exercise 12.22 and 12.23: My Containerized Dev and Prod Environments
 
 The `my-app` directory contains a containerized development environment for my
 Full Stack Open [phonebook](https://github.com/sjdumas/fso-phonebook) app.
 
 To start it, from `my-app`:
+- Development: `docker compose -f docker-compose.dev.yml up`
+- Production: `docker compose up --build`
 
-    docker compose -f docker-compose.dev.yml up
-
-Then open http://localhost:8080.
+Then open http://localhost:8080. Run only one setup at a time, since both use port 8080.
