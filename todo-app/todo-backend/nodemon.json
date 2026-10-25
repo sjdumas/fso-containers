@@ -1,7 +1,7 @@
 {
-	"legacyWatch": true,
-	"ignore": [
-		"mongo_data/",
-		"redis_data/"
-	]
+  "legacyWatch": true,
+  "ignore": [
+    "mongo_data/",
+    "redis_data/"
+  ]
 }
